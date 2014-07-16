@@ -1,0 +1,85 @@
+/*
+Theme Name: Zapolo Child
+Theme URI: http://wordpress.org/themes/twentythirteen
+Description: Zapolo Child Theme
+Author: WPMU
+Author URI: http://wpmu.com
+Template: twentytwelve
+Version: 1.0.0
+*/
+@import url("../twentytwelve/style.css");
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+/*-------------Background ------------------*/
+
+ul.grid {
+list-style: none;
+padding: 0;
+position: fixed;
+top: 0;
+z-index: -1;
+opacity: 0.5;
+}
+
+ul.grid.right {right: 0;}
+
+.grid li img {
+margin: 0;
+width: 150px;
+height: 150px;
+}
+
+.grid li { padding: 0; }
+
+.po_list li{float:left;width:25%; line-height:25px;}
+
+/***************** New ***********************/
+
+.entry-content img, .comment-content img, .widget img, img.header-image, .author-avatar img, img.wp-post-image {
+box-shadow: none;
+}
+
+.term_description{ padding-bottom: 10px;}
+
+.menu-toggle:hover, .menu-toggle:focus, button:hover, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, article.post-password-required input[type=submit]:hover {
+color: #5e5e5e;
+background-color: rgba(36, 220, 255, 0.1);
+background-repeat: repeat-x;
+background-image: -moz-linear-gradient(top, #f9f9f9, #ebebeb);
+background-image: -ms-linear-gradient(top, #f9f9f9, #ebebeb);
+background-image: -webkit-linear-gradient(top, rgba(36, 220, 255, 1), rgba(36, 220, 255, 0.1));
+background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
+background-image: linear-gradient(top, #f9f9f9, #ebebeb);
+border: 2px rgb(36, 220, 255) dotted;
+}
+
+.menu-toggle, input[type="submit"], input[type="button"], input[type="reset"], article.post-password-required input[type=submit], .bypostauthor cite span {
+color: #7c7c7c;
+background-color: rgba(36, 220, 255, 0.1);
+background-repeat: repeat-x;
+background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
+background-image: -ms-linear-gradient(top, #f4f4f4, #e6e6e6);
+background-image: -webkit-linear-gradient(top, rgba(36, 220, 255, 0.1), rgba(36, 220, 255, 1));
+background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
+background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
+border: 2px rgb(36, 220, 255) dotted;
+border-radius: 3px;
+box-shadow: none;
+}
+
+/***************** New ***********************/
+
+/* Minimum width of 960 pixels. */
+@media screen and (min-width: 960px) {
+    body .site {
+        padding: 0 40px;
+        padding: 0 2.857142857rem;
+        margin-top: 0;
+        /*margin-top: 3.428571429rem;*/
+        margin-bottom: 0;
+        /*margin-bottom: 3.428571429rem;*/
+        box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+    }
+}
