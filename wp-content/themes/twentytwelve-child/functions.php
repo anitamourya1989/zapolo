@@ -61,7 +61,7 @@ function my_textbox_callback($args) {  // Textbox Callback
 }
 
 
-
+/*
 
 // Creating the widget 
 class wpb_widget extends WP_Widget {
@@ -147,4 +147,4 @@ public function form( $instance ) {
 function wpb_load_widget() {
 	register_widget( 'wpb_widget' );
 }
-add_action( 'widgets_init', 'wpb_load_widget' );
+add_action( 'widgets_init', 'wpb_load_widget' );*/
